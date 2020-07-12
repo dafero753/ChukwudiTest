@@ -1,0 +1,149 @@
+.aside {
+    border-left: 1px solid rgb(246,246,246);
+    grid-area: b;
+    padding: 10px 25px 10px 25px;
+    position: relative;
+}
+
+.order {
+    margin-top: 40px;
+}
+
+.my {
+    display: flex;
+    align-items: center;
+}
+
+.my-my, .my-order {
+    margin: 0px;
+    padding: 0px;
+}
+
+.my-emoti {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(84,57,162);
+    border-radius: 30px;
+    margin-top: 50px;
+}
+
+.data-box1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 20px 0px 20px;
+}
+
+.adress {
+    color: whitesmoke;
+}
+
+.edit {
+    color: rgb(254,210,74);
+}
+
+.data-box2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 20px 20px 20px;
+}
+
+.left-box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock2 {
+    background-color: rgb(102,72,158);
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 20px;
+    color: rgb(254,210,74);
+}
+
+.minuts {
+    color: whitesmoke;
+}
+
+.choose {
+    color: rgb(254,210,74);
+}
+
+.total {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 40px;
+    border-bottom: 1px solid rgb(241, 241, 241);
+    padding-bottom: 10px;
+}
+
+.total1 {
+    margin-right: 40%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.total2 {
+    display: flex;
+    align-items: flex-end;
+}
+
+.total-price {
+    font-weight: bolder;
+    font-size: 30px;
+    display: flex;
+    align-items: flex-end;
+    margin: 0px;
+}
+
+.total-text {
+    margin: 0px;
+}
+
+.checkout {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.person-number {
+    border: 1px solid rgb(241, 241, 241);
+    border-radius: 10px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.num {
+    font-size: 1.5rem;
+    margin: 10px;
+}
+
+
+
+.checkout-arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(254,210,74);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.checkout-text {
+    margin-left: 20px;
+}
+
+.checkout-icon {
+    width: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}

@@ -1,0 +1,19 @@
+.select {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.select-img {
+    width: 40px;
+    border-radius: 5px;
+}
+
+.select-list1 {
+    font-weight: bolder;
+    font-size: 10px;
+}
+
+.select-list2 {
+    color: gray;
+    font-size: 10px;
+}

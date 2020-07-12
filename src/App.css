@@ -1,0 +1,38 @@
+html {
+  font-family: 'Shadows Into Light';
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  display: grid;
+  grid-template: "a a b" minmax(150px, auto);
+  margin: 10px;
+}
+
+@media screen and (max-width: 767px){
+  .App {
+      grid-template: "a" minmax(150px, auto)
+                     "b" minmax(150px, auto);
+      grid-template-rows: 1.7fr 1fr;
+      grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 639px){
+  .App {
+      grid-template: "a" minmax(150px, auto)
+                     "b" minmax(150px, auto);
+      grid-template-rows: 1.7fr 1fr;
+      grid-template-columns: 1fr;
+  }
+}
+
+
+
+
+
+

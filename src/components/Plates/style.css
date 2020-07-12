@@ -1,0 +1,7 @@
+.plates {
+    display: grid;
+    grid-template: "c d e" minmax(150px, auto)
+                   "f g h" minmax(150px, auto)
+                   "i j k" minmax(150px, auto);
+    grid-gap: 50px;
+}
