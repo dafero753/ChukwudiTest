@@ -9,7 +9,7 @@ function Post({ plate }) {
         <div className="plate-box">
             <img className="plate-img" src={plate.image} alt={plate.name} />
             <div className="plate-time">
-                {plate.time}
+                <p className="text-time">{plate.time}</p>
             </div>
         </div>
         <div className="plate-name">

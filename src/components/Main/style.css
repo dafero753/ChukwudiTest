@@ -91,6 +91,23 @@
     margin: 0px;
 }
 
+@media screen and (max-width: 650px) {
+    .banner-img {
+        max-width: 150px;
+    }
+
+    .learn {
+        position: absolute;
+        right: 10px;
+        bottom: 5px;
+    }
+
+    .banner-text1 {
+        font-size: 20px;
+    }
+}
+
+
 .learn {
     display: flex;
     align-items: center;

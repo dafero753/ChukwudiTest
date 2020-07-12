@@ -6,7 +6,7 @@ function Singup({ user, onAuth, onLogout }) {
 
   function renderUserData() {
     return (
-      <button onClick={onLogout}>
+      <button className="logout" type="buttom" onClick={onLogout}>
         Logout 
       </button>
     )
@@ -14,7 +14,7 @@ function Singup({ user, onAuth, onLogout }) {
 
   function rederLoginButton() {
     return (
-      <button onClick={onAuth}>
+      <button className="login" type="buttom" onClick={onAuth}>
         Login
       </button>
     )
@@ -22,8 +22,8 @@ function Singup({ user, onAuth, onLogout }) {
 
   return (
     <div className="singup">
-        {renderUserData()}
         {rederLoginButton()}
+        {renderUserData()}
         <img className="singup-icon" src={icon5} alt="singup-icon" />
         <div className="singup-items">3</div>
     </div>

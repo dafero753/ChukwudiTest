@@ -47,7 +47,7 @@ export default class Main extends React.Component{
             </header>
             <div className="banner">
                 <div className="banner-box">
-                    <div>
+                    <div className="img-box">
                         <img className="banner-img" src={Img1} alt="inner" />   
                     </div>
                     <div className="banner-title">

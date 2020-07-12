@@ -9,7 +9,7 @@ function Post({ categorie }) {
           <img className="categorie-icon" src={categorie.icon} alt={categorie.name} />
         </div>
         <div className="categorie-name">
-            {categorie.name}
+            <p calssname="categorie-text">{categorie.name}</p>
         </div>
     </div>
   );

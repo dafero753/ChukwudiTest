@@ -17,19 +17,11 @@ body {
   .App {
       grid-template: "a" minmax(150px, auto)
                      "b" minmax(150px, auto);
-      grid-template-rows: 1.7fr 1fr;
+      grid-template-rows: 1.1fr 1fr;
       grid-template-columns: 1fr;
   }
 }
 
-@media screen and (max-width: 639px){
-  .App {
-      grid-template: "a" minmax(150px, auto)
-                     "b" minmax(150px, auto);
-      grid-template-rows: 1.7fr 1fr;
-      grid-template-columns: 1fr;
-  }
-}
 
 
 

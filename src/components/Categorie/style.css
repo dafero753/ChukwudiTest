@@ -15,6 +15,7 @@
     width: 73px;
 }
 
+
 .categorie-iconbox {
     width: 40px;
     height: 40px;
@@ -29,3 +30,30 @@
 .categorie-icon {
     width: 20px;
 }
+
+@media screen and (max-width: 650px) {
+    .categorie {
+        height: 40px;
+        width: 40px;
+    }
+
+    .categorie-iconbox {
+        width: 30px;
+        height: 30px;
+    }
+
+    .categorie-name {
+        display: none;
+    }
+
+    .categorie-icon {
+        width: 20px;
+    }
+
+    .categorie:hover {
+        background-color: rgb(254,210,74);
+        height: 45px;
+        width: 45px;
+    }
+}
+
